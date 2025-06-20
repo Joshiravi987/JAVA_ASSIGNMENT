@@ -5,9 +5,23 @@ public class Student {
 public String name;
 public int age;
 
+public Student(String name, int age) {
+this.name = name;
+this.age = age;
+			
+}
+public void displaydetail() {
+	System.out.println("name: " + name);
+	System.out.println("age: " + age);
+	
+}
+
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		Student sc = new Student ("RAVI",20);
+		sc.displaydetail();
 	}
 
 }
