@@ -1,5 +1,5 @@
 package methods_in_java;
-
+//method overloading
 public class Calculator {
 	public int add(int a, int b) {
 		return a + b;
